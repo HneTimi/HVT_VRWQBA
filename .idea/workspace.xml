@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5173f196-37bd-4fa0-a44a-29e1c3f03aba" name="Changes" comment="Könyvtár létrehozása">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/konyvtar.py" beforeDir="false" afterPath="$PROJECT_DIR$/konyvtar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="5173f196-37bd-4fa0-a44a-29e1c3f03aba" name="Changes" comment="Program módosítás 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +89,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763908379608</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Program módosítás">
+      <option name="closed" value="true" />
+      <created>1763909012606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763909012606</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Program módosítás 1">
+      <option name="closed" value="true" />
+      <created>1763909029133</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763909029133</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Program módosítás 2">
+      <option name="closed" value="true" />
+      <created>1763909038793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763909038793</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +131,9 @@
     <MESSAGE value="Telepítés" />
     <MESSAGE value="Main létrehozása" />
     <MESSAGE value="Könyvtár létrehozása" />
-    <option name="LAST_COMMIT_MESSAGE" value="Könyvtár létrehozása" />
+    <MESSAGE value="Program módosítás" />
+    <MESSAGE value="Program módosítás 1" />
+    <MESSAGE value="Program módosítás 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Program módosítás 2" />
   </component>
 </project>
