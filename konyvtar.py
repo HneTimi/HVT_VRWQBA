@@ -1,6 +1,6 @@
 import csv
 
-class Book:
+class Book_HVT:
     def __init__(self, cim, szerzo, ev):
         self.cim = cim
         self.szerzo = szerzo
@@ -10,21 +10,21 @@ class Book:
         return f"{self.cim} - {self.szerzo} ({self.ev})"
 
 
-def mentes(konyvek, fajlnev="konyvek.csv"):
+def mentes_HVT(konyvek, fajlnev="konyvek.csv"):
     with open(fajlnev, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         for k in konyvek:
             writer.writerow([k.cim, k.szerzo, k.ev])
 
 
-def betolt(fajlnev="konyvek.csv"):
+def betolt_HVT(fajlnev="konyvek.csv"):
     konyvek = []
     try:
         with open(fajlnev, "r", encoding="utf-8") as f:
             reader = csv.reader(f)
             for sor in reader:
                 if len(sor) == 3:
-                    konyvek.append(Book(sor[0], sor[1], sor[2]))
+                    konyvek.append(Book_HVT(sor[0], sor[1], sor[2]))
     except FileNotFoundError:
         pass
     return konyvek
