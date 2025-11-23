@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5173f196-37bd-4fa0-a44a-29e1c3f03aba" name="Changes" comment="Program módosítás 2" />
+    <list default="true" id="5173f196-37bd-4fa0-a44a-29e1c3f03aba" name="Changes" comment="Program módosítás 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763909038793</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Program módosítás 3">
+      <option name="closed" value="true" />
+      <created>1763909351908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763909351908</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +144,7 @@
     <MESSAGE value="Program módosítás" />
     <MESSAGE value="Program módosítás 1" />
     <MESSAGE value="Program módosítás 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Program módosítás 2" />
+    <MESSAGE value="Program módosítás 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Program módosítás 3" />
   </component>
 </project>
