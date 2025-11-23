@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox, Listbox, END, Scrollbar
-from konyvtar import Book, mentes, betolt
+from konyvtar import Book_HVT, mentes_HVT, betolt_HVT
 
-konyvek = betolt()
+konyvek = betolt_HVT()
 
 
 def hozzaad():
@@ -14,7 +14,7 @@ def hozzaad():
         messagebox.showwarning("Hiba", "Minden mezőt ki kell tölteni!")
         return
 
-    uj = Book(cim, szerzo, ev)
+    uj = Book_HVT(cim, szerzo, ev)
     konyvek.append(uj)
     frissit()
 
@@ -33,7 +33,7 @@ def torol():
 
 
 def mentes():
-    mentes(konyvek)
+    mentes_HVT(konyvek)
     messagebox.showinfo("Siker", "A könyvek elmentve!")
 
 
